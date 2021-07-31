@@ -10,4 +10,6 @@ data class FileUploadResponse(
     val size: Long,
     val originalFilename: String,
     val link: String,
+    val objectKey: String,
+    val contentType: String?,
 )
