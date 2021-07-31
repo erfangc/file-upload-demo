@@ -9,7 +9,5 @@ data class FileUploadResponse(
     val updatedOn: Instant = Instant.now(),
     val size: Long,
     val originalFilename: String,
-    val link: String,
-    val objectKey: String,
     val contentType: String?,
 )
