@@ -20,7 +20,7 @@ class S3Proxy(
     private val s3: S3Client
 ) {
 
-    private val bucket = "erfangchen.com"
+    private val bucket = "cheerf.link"
     private val documentsPrefix = "uploads/documents"
     private val localDir = File("uploads")
     private val log = LoggerFactory.getLogger(S3Proxy::class.java)
